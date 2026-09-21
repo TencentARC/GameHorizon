@@ -86,7 +86,9 @@ We introduce <strong>GameHorizon</strong>, a large-scale data and evaluation sui
 
 ### Offline Results — Primary Tasks (T1 / T2 / T3)
 
-Accuracies are reported as percentages; **Overall** is the mean across the three tasks. **Bold** = best, <ins>underline</ins> = second-best. Models are grouped into four tiers by Overall score.
+Accuracies are reported as percentages. **Overall** is the mean across the three tasks. 
+
+**Bold** = best, <ins>underline</ins> = second-best. Models are grouped into four tiers by Overall score.
 
 <div align="center">
 
