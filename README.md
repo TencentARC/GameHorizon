@@ -6,6 +6,7 @@
     <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Online-b31b1b?style=for-the-badge"></a>
     <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-22c55e?style=for-the-badge"></a>
     <br>
+    <a href="#"><img src="https://img.shields.io/badge/📊_Benchmark-Coming_Soon-ffce54?style=for-the-badge"></a>
     <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-ffce54?style=for-the-badge"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-0aa1e0?style=for-the-badge"></a>
   </p>
