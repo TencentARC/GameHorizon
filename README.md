@@ -54,9 +54,9 @@ We introduce **GameHorizon**, a large-scale data and evaluation suite spanning m
 
 | Component | What it is | Highlights |
 |:--|:--|:--|
-| 🏗️ **Annotator** | A scalable and automated annotation pipeline | **L1 → L2 → L3 instruction pyramid** |
-| 🎯 **Data** | A large-scale AAA gameplay corpus | **5,000 hours** · **AAA-focused** · **21 titles** · **temporally-aligned videos, actions & multi-horizon instructions** |
-| 📊 **Bench** | Reproducible offline + stepwise online track | **5,000 offline MCQs (3 primary + 10 variant tasks)** · **20 online tasks / 62 subtasks** · **47 models benchmarked** |
+| 🏗️ Annotator | A scalable and automated annotation pipeline | **L1 → L2 → L3 instruction pyramid** |
+| 🎯 Data | A large-scale AAA gameplay corpus | **5,000 hours** · **AAA-focused** · **21 titles** · **temporally-aligned videos, actions & multi-horizon instructions** |
+| 📊 Bench | Reproducible offline + stepwise online track | **5,000 offline MCQs (3 primary + 10 variant tasks)** · **20 online tasks / 62 subtasks** · **47 models benchmarked** |
 
 
 
