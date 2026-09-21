@@ -47,9 +47,10 @@ We are actively preparing the release of our code, benchmark, and data. Star the
 
 ## 📖 Overview
 
-We introduce **GameHorizon**, a large-scale data and evaluation suite spanning multiple horizons and AAA games. It serves as a unified yardstick across a broad range of model types. It consists of three key components. **GameHorizon-Annotator** automatically produces a three-level pyramid of short-horizon operations, medium-horizon goals, and long-horizon strategies. **GameHorizon-Data** contains 5,000 hours of gameplay across 21 game titles, with temporally aligned videos, actions, and multi-horizon instructions. **GameHorizon-Bench** provides reproducible offline and stepwise online testing. The offline track contains thousands of standardized MCQs across three primary tasks and diagnostic variants. The online track tests order-dependent causal and order-flexible thematic tasks via the verifiable subtasks for failure localization.
-
 <div align="left"><img src="assets/overview.png" width="95%" alt="GameHorizon Suite overview"/></div>
+
+
+We introduce **GameHorizon**, a large-scale data and evaluation suite spanning multiple horizons and AAA games. It serves as a unified yardstick across a broad range of model types. It consists of three key components. **GameHorizon-Annotator** automatically produces a three-level pyramid of short-horizon operations, medium-horizon goals, and long-horizon strategies. **GameHorizon-Data** contains 5,000 hours of gameplay across 21 game titles, with temporally aligned videos, actions, and multi-horizon instructions. **GameHorizon-Bench** provides reproducible offline and stepwise online testing. The offline track contains thousands of standardized MCQs across three primary tasks and diagnostic variants. The online track tests order-dependent causal and order-flexible thematic tasks via the verifiable subtasks for failure localization.
 
 
 <table>
@@ -78,49 +79,6 @@ We introduce **GameHorizon**, a large-scale data and evaluation suite spanning m
 </tr>
 </tbody>
 </table>
-
-
-
-## 🏗️ GameHorizon-Annotator
-
-Videos and actions are first processed by **action-aware segmentation** to produce short-horizon clips, with key
-actions determining their temporal boundaries. A VLM annotates each clip with an **L1** operation. Lower-level clips
-are progressively merged into medium- and long-horizon clips based on action continuity and semantic coherence, from
-which the VLM derives **L2** goals and **L3** strategies — abstracting fine-grained trajectories into a pyramid of
-multi-horizon text instructions.
-
-<div align="center"><img src="assets/annotator.png" width="100%" alt="GameHorizon-Annotator workflow"/></div>
-
-
-
-## 🎯 GameHorizon-Data
-
-The first large-scale **AAA** gameplay dataset with temporally aligned videos, player actions, and multi-horizon
-instructions, collected by **100 experienced human players** across five diverse genres (open-world, action RPG,
-competitive shooter, sandbox survival, and creature-collecting adventure).
-
-<div align="center">
-
-| 📦 Total | 🎮 Titles | 🧑‍🤝‍🧑 Players | 🎬 Genres | 🪜 Horizons |
-|:--:|:--:|:--:|:--:|:--:|
-| **5,000 h** | **21 AAA** | **100** | **5** | **L1 / L2 / L3** |
-
-</div>
-
-
-
-## 📊 GameHorizon-Bench
-
-**Offline track** — reproducible multiple-choice evaluation across three primary tasks (single-horizon action **T1**,
-multi-horizon decomposition **T2**, cross-horizon consistency **T3**) plus ten diagnostic variants.
-
-<div align="center"><img src="assets/offline.png" width="100%" alt="Offline track"/></div>
-
-**Online track** — stepwise, interactive evaluation on long-horizon **causal** and **thematic** tasks, each composed
-of verifiable short-horizon subtasks. A task is passed only when all constituent subtasks succeed.
-
-<div align="center"><img src="assets/online.png" width="100%" alt="Online track"/></div>
-
 
 
 ## 🏆 Leaderboard
