@@ -2,13 +2,13 @@
   <img src="assets/hero.png" width="100%" alt="GameHorizon Suite — Multi-Horizon Data and Evaluation in Gameplay"/>
 
   <p>
-    <a href="https://gamehorizon-suite.github.io"><img src="https://img.shields.io/badge/🌐_Project_Page-Online-2ea043?style=for-the-badge&labelColor=1f2328"></a>
-    <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Online-2ea043?style=for-the-badge&labelColor=1f2328"></a>
-    <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-2ea043?style=for-the-badge&labelColor=1f2328"></a>
+    <a href="https://gamehorizon-suite.github.io"><img src="https://img.shields.io/badge/🌐_Project_Page-Online-6366F1?style=for-the-badge&labelColor=2B2F3A"></a>
+    <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Online-EF4444?style=for-the-badge&labelColor=2B2F3A"></a>
+    <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-F59E0B?style=for-the-badge&labelColor=2B2F3A"></a>
     <br>
-    <a href="#"><img src="https://img.shields.io/badge/📊_Benchmark-Coming_Soon-d9820b?style=for-the-badge&labelColor=1f2328"></a>
-    <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-d9820b?style=for-the-badge&labelColor=1f2328"></a>
-    <a href="LICENSE"><img src="https://img.shields.io/badge/⚖️_License-Apache_2.0-3b82f6?style=for-the-badge&labelColor=1f2328"></a>
+    <a href="#"><img src="https://img.shields.io/badge/📊_Benchmark-Coming_Soon-14B8A6?style=for-the-badge&labelColor=2B2F3A"></a>
+    <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-0EA5E9?style=for-the-badge&labelColor=2B2F3A"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/⚖️_License-Apache_2.0-8B5CF6?style=for-the-badge&labelColor=2B2F3A"></a>
   </p>
 
   <p>
