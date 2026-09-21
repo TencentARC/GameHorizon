@@ -23,10 +23,10 @@
 ## 📰 News & ToDo
 
 **📢 News**
-- **[2026.09.22]** 📄 Our paper and [project page](https://gamehorizon-suite.github.io) are released!
+- **[2026.09.22]** 📄 The [paper]() and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
 
 **🚧 ToDo**
-- 🚀 We will progressively open-source the **code**, **data**, and **benchmark** starting around **2026.10.20 – 11.10**. Stay tuned! ⭐
+- 🚀 We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
 
 ---
 
