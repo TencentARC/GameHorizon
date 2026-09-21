@@ -90,6 +90,9 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 
 **Bold** = best, <ins>underline</ins> = second-best. Models are grouped into four tiers by Overall score.
 
+
+<div align="center"><b>Average (all 44 models)</b> — T1 57.3 · T2 65.1 · T3 71.6 · <b>Overall 64.7</b></div>
+
 <div align="center">
 
 <table>
@@ -184,7 +187,7 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 
 </div>
 
-<div align="center"><b>Average (all 44 models)</b> — T1 57.3 · T2 65.1 · T3 71.6 · <b>Overall 64.7</b></div>
+
 
 ### Online Results
 
