@@ -3,7 +3,7 @@
 
   <p>
     <a href="https://gamehorizon-suite.github.io"><img src="https://img.shields.io/badge/🌐_Project_Page-Online-1f8ceb?style=for-the-badge"></a>
-    <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Coming_Soon-b31b1b?style=for-the-badge"></a>
+    <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Online-b31b1b?style=for-the-badge"></a>
     <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-ffce54?style=for-the-badge"></a>
     <img src="https://img.shields.io/badge/License-Coming_Soon-64748b?style=for-the-badge">
   </p>
@@ -40,7 +40,6 @@ We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow p
 - [ ] 📊 GameHorizon-Bench (online) — online task environments
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
 
- & submission portal
 
 
 ## 📖 Overview
