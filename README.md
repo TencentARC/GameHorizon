@@ -52,11 +52,32 @@ We introduce **GameHorizon**, a large-scale data and evaluation suite spanning m
 <div align="left"><img src="assets/overview.png" width="95%" alt="GameHorizon Suite overview"/></div>
 
 
-| Component | What it is | Highlights |
-|:--|:--|:--|
-| 🏗️ Annotator | A scalable and automated annotation pipeline | **L1 → L2 → L3 instruction pyramid** |
-| 🎯 Data | A large-scale AAA gameplay corpus | **5,000 hours** · **AAA-focused** · **21 titles** · **temporally-aligned videos, actions & multi-horizon instructions** |
-| 📊 Bench | Reproducible offline + stepwise online track | **5,000 offline MCQs (3 primary + 10 variant tasks)** · **20 online tasks / 62 subtasks** · **47 models benchmarked** |
+<table>
+<thead>
+<tr>
+<th align="left">Component</th>
+<th align="left">What it is</th>
+<th align="left">Highlights</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td nowrap>🏗️ Annotator</td>
+<td>A scalable and automated annotation pipeline</td>
+<td><strong>L1 → L2 → L3 instruction pyramid</strong></td>
+</tr>
+<tr>
+<td nowrap>🎯 Data</td>
+<td>A large-scale AAA gameplay corpus</td>
+<td><strong>5,000 hours</strong> · <strong>AAA-focused</strong> · <strong>21 titles</strong> · <strong>temporally-aligned videos, actions &amp; multi-horizon instructions</strong></td>
+</tr>
+<tr>
+<td nowrap>📊 Bench</td>
+<td>Reproducible offline + stepwise online track</td>
+<td><strong>5,000 offline MCQs (3 primary + 10 variant tasks)</strong> · <strong>20 online tasks / 62 subtasks</strong> · <strong>47 models benchmarked</strong></td>
+</tr>
+</tbody>
+</table>
 
 
 
