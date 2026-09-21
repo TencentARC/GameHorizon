@@ -49,8 +49,9 @@ We are actively preparing the release of our code, benchmark, and data. Star the
 
 <div align="left"><img src="assets/overview.png" width="95%" alt="GameHorizon Suite overview"/></div>
 
-
+<p align="justify">
 We introduce **GameHorizon**, a large-scale data and evaluation suite spanning multiple horizons and AAA games. It serves as a unified yardstick across a broad range of model types. It consists of three key components. **GameHorizon-Annotator** automatically produces a three-level pyramid of short-horizon operations, medium-horizon goals, and long-horizon strategies. **GameHorizon-Data** contains 5,000 hours of gameplay across 21 game titles, with temporally aligned videos, actions, and multi-horizon instructions. **GameHorizon-Bench** provides reproducible offline and stepwise online testing. The offline track contains thousands of standardized MCQs across three primary tasks and diagnostic variants. The online track tests order-dependent causal and order-flexible thematic tasks via the verifiable subtasks for failure localization.
+</p>
 
 
 <table>
