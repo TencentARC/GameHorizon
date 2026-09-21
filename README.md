@@ -32,12 +32,12 @@
 
 We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
 
-- [x] 🌐 Project page — **live** at [gamehorizon-suite.github.io](https://gamehorizon-suite.github.io)
-- [x] 📄 Technical report / paper — **live** at []()
-- [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io)
+- [x] 🌐 [Project page](https://gamehorizon-suite.github.io)
+- [x] 📄 [Technical report / paper]() 
+- [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io/#benchmark)
 - [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
 - [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
-- [ ] 📊 GameHorizon-Bench (online) — interactive task environments
+- [ ] 📊 GameHorizon-Bench (online) — online task environments
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
 
  & submission portal
