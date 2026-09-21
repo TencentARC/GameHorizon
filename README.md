@@ -7,7 +7,7 @@
     <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-22c55e?style=for-the-badge"></a>
     <br>
     <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-ffce54?style=for-the-badge"></a>
-    <a href="https://creativecommons.org/licenses/by/4.0/"><img src="https://img.shields.io/badge/License-CC_BY_4.0-0aa1e0?style=for-the-badge"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-0aa1e0?style=for-the-badge"></a>
   </p>
 
   <p>
