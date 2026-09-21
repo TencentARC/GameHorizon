@@ -26,9 +26,9 @@
 ## 📢 News
 
 - **[2026.09.22]** 📄 The [paper]() and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
-- 🚀 We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
+- We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
 
-## 🗓️ Open-Source Plan
+## 🚀 Open-Source Plan
 
 We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
 
