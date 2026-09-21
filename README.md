@@ -26,7 +26,7 @@
 - **[2026.09.22]** 📄 The [paper]() and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
 - 🚀 We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
 
----
+
 
 ## 📖 Overview
 
@@ -44,7 +44,7 @@ The suite consists of three tightly-coupled components:
 | 🎯 **GameHorizon-Data** | The first large-scale AAA gameplay corpus | **5,000 hours** · **21 AAA titles** · **100 human players** · **5 genres** · temporally-aligned videos, actions & multi-horizon instructions |
 | 📊 **GameHorizon-Bench** | Reproducible offline + stepwise online evaluation | **5,000 offline MCQs** (3 primary + 10 variant tasks) · **20 online tasks / 62 subtasks** · **47 models** benchmarked |
 
----
+
 
 ## 🏗️ GameHorizon-Annotator
 
@@ -56,7 +56,7 @@ multi-horizon text instructions.
 
 <div align="center"><img src="assets/annotator.png" width="100%" alt="GameHorizon-Annotator workflow"/></div>
 
----
+
 
 ## 🎯 GameHorizon-Data
 
@@ -72,7 +72,7 @@ competitive shooter, sandbox survival, and creature-collecting adventure).
 
 </div>
 
----
+
 
 ## 📊 GameHorizon-Bench
 
@@ -86,7 +86,7 @@ of verifiable short-horizon subtasks. A task is passed only when all constituent
 
 <div align="center"><img src="assets/online.png" width="100%" alt="Online track"/></div>
 
----
+
 
 ## 🏆 Leaderboard
 
@@ -182,14 +182,14 @@ Each entry reports the success rate (%) with the number of passed tasks in paren
 | 11 | InternVL3.5-8B | 38 | 3.2 <sub>(2/62)</sub> | 0.0 <sub>(0/20)</sub> | 0.0 <sub>(0/10)</sub> | 0.0 <sub>(0/10)</sub> |
 | 12 | UI-TARS-1.5-7B | 41 | 1.6 <sub>(1/62)</sub> | 0.0 <sub>(0/20)</sub> | 0.0 <sub>(0/10)</sub> | 0.0 <sub>(0/10)</sub> |
 
----
+
 
 ## 🗓️ Open-Source Plan
 
 We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
 
 - [x] 🌐 Project page — **live** at [gamehorizon-suite.github.io](https://gamehorizon-suite.github.io)
-- [ ] 📄 Technical report / paper
+- [x] 📄 Technical report / paper — **live** at []()
 - [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
 - [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
