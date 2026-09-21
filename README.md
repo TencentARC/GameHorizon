@@ -116,23 +116,6 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <tr><td align="center">11</td><td align="left">Doubao-Seed-2.1-Pro</td><td align="center">62.9</td><td align="center">76.7</td><td align="center">76.6</td><td align="center">72.1</td></tr>
 </table>
 
-<b>Tier 3 · Rank 23–33</b>
-
-<table>
-<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="200" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
-<tr><td align="center">23</td><td align="left">Claude Opus 4.8</td><td align="center">59.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">64.8</td></tr>
-<tr><td align="center">24</td><td align="left">Claude Sonnet 5</td><td align="center">54.4</td><td align="center">57.7</td><td align="center">82.0</td><td align="center">64.7</td></tr>
-<tr><td align="center">25</td><td align="left">Step-3.7-Flash</td><td align="center">57.5</td><td align="center">71.3</td><td align="center">63.4</td><td align="center">64.1</td></tr>
-<tr><td align="center">26</td><td align="left">Qwen3-VL-235B-A22B-Instruct</td><td align="center">55.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">63.4</td></tr>
-<tr><td align="center">27</td><td align="left">GLM-5V-Turbo</td><td align="center">53.4</td><td align="center">65.4</td><td align="center">70.8</td><td align="center">63.2</td></tr>
-<tr><td align="center">28</td><td align="left">GPT-5.2</td><td align="center">58.9</td><td align="center">58.9</td><td align="center">70.6</td><td align="center">62.8</td></tr>
-<tr><td align="center">29</td><td align="left">Qwen3.5-397B-A17B</td><td align="center">53.3</td><td align="center">60.1</td><td align="center">73.5</td><td align="center">62.3</td></tr>
-<tr><td align="center">30</td><td align="left">BAGEL-7B-MoT</td><td align="center">51.7</td><td align="center">57.3</td><td align="center">75.1</td><td align="center">61.4</td></tr>
-<tr><td align="center">31</td><td align="left">Qwen2.5-VL-32B-Instruct</td><td align="center">54.8</td><td align="center">58.0</td><td align="center">69.7</td><td align="center">60.8</td></tr>
-<tr><td align="center">32</td><td align="left">Step3-VL-10B</td><td align="center">55.4</td><td align="center">64.7</td><td align="center">61.7</td><td align="center">60.6</td></tr>
-<tr><td align="center">33</td><td align="left">SenseNova-U1-8B-MoT</td><td align="center">48.2</td><td align="center">59.2</td><td align="center">67.5</td><td align="center">58.3</td></tr>
-</table>
-
 </td>
 <td valign="top">
 
@@ -152,6 +135,34 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <tr><td align="center">21</td><td align="left">MiniMax-M3</td><td align="center">57.8</td><td align="center">68.5</td><td align="center">70.6</td><td align="center">65.6</td></tr>
 <tr><td align="center">22</td><td align="left">Qwen3-VL-235B-A22B-Thinking</td><td align="center">58.2</td><td align="center">71.6</td><td align="center">65.9</td><td align="center">65.2</td></tr>
 </table>
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td valign="top">
+
+<b>Tier 3 · Rank 23–33</b>
+
+<table>
+<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="200" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><td align="center">23</td><td align="left">Claude Opus 4.8</td><td align="center">59.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">64.8</td></tr>
+<tr><td align="center">24</td><td align="left">Claude Sonnet 5</td><td align="center">54.4</td><td align="center">57.7</td><td align="center">82.0</td><td align="center">64.7</td></tr>
+<tr><td align="center">25</td><td align="left">Step-3.7-Flash</td><td align="center">57.5</td><td align="center">71.3</td><td align="center">63.4</td><td align="center">64.1</td></tr>
+<tr><td align="center">26</td><td align="left">Qwen3-VL-235B-A22B-Instruct</td><td align="center">55.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">63.4</td></tr>
+<tr><td align="center">27</td><td align="left">GLM-5V-Turbo</td><td align="center">53.4</td><td align="center">65.4</td><td align="center">70.8</td><td align="center">63.2</td></tr>
+<tr><td align="center">28</td><td align="left">GPT-5.2</td><td align="center">58.9</td><td align="center">58.9</td><td align="center">70.6</td><td align="center">62.8</td></tr>
+<tr><td align="center">29</td><td align="left">Qwen3.5-397B-A17B</td><td align="center">53.3</td><td align="center">60.1</td><td align="center">73.5</td><td align="center">62.3</td></tr>
+<tr><td align="center">30</td><td align="left">BAGEL-7B-MoT</td><td align="center">51.7</td><td align="center">57.3</td><td align="center">75.1</td><td align="center">61.4</td></tr>
+<tr><td align="center">31</td><td align="left">Qwen2.5-VL-32B-Instruct</td><td align="center">54.8</td><td align="center">58.0</td><td align="center">69.7</td><td align="center">60.8</td></tr>
+<tr><td align="center">32</td><td align="left">Step3-VL-10B</td><td align="center">55.4</td><td align="center">64.7</td><td align="center">61.7</td><td align="center">60.6</td></tr>
+<tr><td align="center">33</td><td align="left">SenseNova-U1-8B-MoT</td><td align="center">48.2</td><td align="center">59.2</td><td align="center">67.5</td><td align="center">58.3</td></tr>
+</table>
+
+</td>
+<td valign="top">
 
 <b>Tier 4 · Rank 34–44</b>
 
