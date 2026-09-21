@@ -102,7 +102,7 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <b>🥇 Tier 1 · Rank 1–11</b>
 
 <table>
-<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="230" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><th align="center">#</th><th align="left">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
 <tr><td align="center">🥇</td><td align="left" nowrap>GPT-6-Astra</td><td align="center"><strong>69.4</strong></td><td align="center">79.6</td><td align="center"><strong>91.5</strong></td><td align="center"><strong>80.2</strong></td></tr>
 <tr><td align="center">🥈</td><td align="left" nowrap>Gemini 3.8 Flash</td><td align="center">65.9</td><td align="center"><strong>81.2</strong></td><td align="center"><ins>84.8</ins></td><td align="center"><ins>77.3</ins></td></tr>
 <tr><td align="center">🥉</td><td align="left" nowrap>Gemini 3.7 Flash</td><td align="center"><ins>66.2</ins></td><td align="center"><ins>80.1</ins></td><td align="center">83.9</td><td align="center">76.7</td></tr>
@@ -122,7 +122,7 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <b>Tier 2 · Rank 12–22</b>
 
 <table>
-<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="230" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><th align="center">#</th><th align="left">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
 <tr><td align="center">12</td><td align="left" nowrap>Doubao-Seed-2.0-Pro</td><td align="center">59.2</td><td align="center">74.9</td><td align="center">80.0</td><td align="center">71.4</td></tr>
 <tr><td align="center">13</td><td align="left" nowrap>Claude Fable 5</td><td align="center">62.9</td><td align="center">72.7</td><td align="center">78.1</td><td align="center">71.2</td></tr>
 <tr><td align="center">14</td><td align="left" nowrap>GPT-5.6 Terra</td><td align="center">62.1</td><td align="center">75.6</td><td align="center">74.4</td><td align="center">70.7</td></tr>
@@ -147,7 +147,7 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <b>Tier 3 · Rank 23–33</b>
 
 <table>
-<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="230" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><th align="center">#</th><th align="left">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
 <tr><td align="center">23</td><td align="left" nowrap>Claude Opus 4.8</td><td align="center">59.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">64.8</td></tr>
 <tr><td align="center">24</td><td align="left" nowrap>Claude Sonnet 5</td><td align="center">54.4</td><td align="center">57.7</td><td align="center">82.0</td><td align="center">64.7</td></tr>
 <tr><td align="center">25</td><td align="left" nowrap>Step-3.7-Flash</td><td align="center">57.5</td><td align="center">71.3</td><td align="center">63.4</td><td align="center">64.1</td></tr>
@@ -167,7 +167,7 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 <b>Tier 4 · Rank 34–44</b>
 
 <table>
-<tr><th align="center">#</th><th align="left">Model<img src="assets/px.png" width="230" height="1" alt=""></th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><th align="center">#</th><th align="left">Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
 <tr><td align="center">34</td><td align="left" nowrap>Qwen3.6-35B-A3B</td><td align="center">53.3</td><td align="center">52.9</td><td align="center">66.3</td><td align="center">57.5</td></tr>
 <tr><td align="center">35</td><td align="left" nowrap>Qwen3-Omni-30B-A3B-Instruct</td><td align="center">52.5</td><td align="center">55.6</td><td align="center">63.7</td><td align="center">57.3</td></tr>
 <tr><td align="center">36</td><td align="left" nowrap>GELab-Zero-4B-Preview</td><td align="center">51.8</td><td align="center">46.8</td><td align="center">72.7</td><td align="center">57.1</td></tr>
