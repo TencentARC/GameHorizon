@@ -23,11 +23,24 @@
 
 ---
 
-## 📢 News & ToDo
+## 📢 News
 
 - **[2026.09.22]** 📄 The [paper]() and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
 - 🚀 We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
 
+## 🗓️ Open-Source Plan
+
+We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
+
+- [x] 🌐 Project page — **live** at [gamehorizon-suite.github.io](https://gamehorizon-suite.github.io)
+- [x] 📄 Technical report / paper — **live** at []()
+- [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io)
+- [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
+- [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
+- [ ] 📊 GameHorizon-Bench (online) — interactive task environments
+- [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
+
+ & submission portal
 
 
 ## 📖 Overview
@@ -185,20 +198,6 @@ Each entry reports the success rate (%) with the number of passed tasks in paren
 | 12 | UI-TARS-1.5-7B | 41 | 1.6 <sub>(1/62)</sub> | 0.0 <sub>(0/20)</sub> | 0.0 <sub>(0/10)</sub> | 0.0 <sub>(0/10)</sub> |
 
 
-
-## 🗓️ Open-Source Plan
-
-We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
-
-- [x] 🌐 Project page — **live** at [gamehorizon-suite.github.io](https://gamehorizon-suite.github.io)
-- [x] 📄 Technical report / paper — **live** at []()
-- [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
-- [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
-- [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
-- [ ] 📊 GameHorizon-Bench (online) — interactive task environments
-- [ ] 🏆 Public leaderboard & submission portal
-
----
 
 ## 📜 Citation
 
