@@ -193,18 +193,18 @@ Each entry reports the success rate (%) with the number of passed tasks in paren
 
 | Online | Model | Offline | Short-Horizon Subtasks | Long-Horizon Tasks | Causal | Thematic |
 |:--:|:--|:--:|:--:|:--:|:--:|:--:|
-| 🥇 | GPT-6-Astra | 1 | **66.1** <sub>(41/62)</sub> | **45.0** <sub>(9/20)</sub> | **40.0** <sub>(4/10)</sub> | **50.0** <sub>(5/10)</sub> |
-| 🥈 | Gemini 3.6 Flash | 4 | <ins>56.5</ins> <sub>(35/62)</sub> | <ins>30.0</ins> <sub>(6/20)</sub> | <ins>30.0</ins> <sub>(3/10)</sub> | <ins>30.0</ins> <sub>(3/10)</sub> |
-| 🥉 | Kimi-K3 | 6 | 46.8 <sub>(29/62)</sub> | 10.0 <sub>(2/20)</sub> | 20.0 <sub>(2/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 4 | GPT-5.6 Terra | 14 | 37.1 <sub>(23/62)</sub> | 10.0 <sub>(2/20)</sub> | 20.0 <sub>(2/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 5 | GPT-5.6 Luna | 17 | 33.9 <sub>(21/62)</sub> | 10.0 <sub>(2/20)</sub> | 10.0 <sub>(1/10)</sub> | 10.0 <sub>(1/10)</sub> |
-| 6 | MiniMax-M3 | 21 | 29.0 <sub>(18/62)</sub> | 10.0 <sub>(2/20)</sub> | 10.0 <sub>(1/10)</sub> | 10.0 <sub>(1/10)</sub> |
-| 7 | GLM-5V-Turbo | 27 | 27.4 <sub>(17/62)</sub> | 5.0 <sub>(1/20)</sub> | 10.0 <sub>(1/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 8 | Qwen3.5-397B-A17B | 29 | 19.4 <sub>(12/62)</sub> | 5.0 <sub>(1/20)</sub> | 10.0 <sub>(1/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 9 | Step3-VL-10B | 32 | 14.5 <sub>(9/62)</sub> | 5.0 <sub>(1/20)</sub> | 10.0 <sub>(1/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 10 | Qwen3.6-35B-A3B | 34 | 11.3 <sub>(7/62)</sub> | 5.0 <sub>(1/20)</sub> | 10.0 <sub>(1/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 11 | InternVL3.5-8B | 38 | 3.2 <sub>(2/62)</sub> | 0.0 <sub>(0/20)</sub> | 0.0 <sub>(0/10)</sub> | 0.0 <sub>(0/10)</sub> |
-| 12 | UI-TARS-1.5-7B | 41 | 1.6 <sub>(1/62)</sub> | 0.0 <sub>(0/20)</sub> | 0.0 <sub>(0/10)</sub> | 0.0 <sub>(0/10)</sub> |
+| 🥇 | GPT-6-Astra | 1 | **66.1**&nbsp;<sub>(41/62)</sub> | **45.0**&nbsp;<sub>(9/20)</sub> | **40.0**&nbsp;<sub>(4/10)</sub> | **50.0**&nbsp;<sub>(5/10)</sub> |
+| 🥈 | Gemini 3.6 Flash | 4 | <ins>56.5</ins>&nbsp;<sub>(35/62)</sub> | <ins>30.0</ins>&nbsp;<sub>(6/20)</sub> | <ins>30.0</ins>&nbsp;<sub>(3/10)</sub> | <ins>30.0</ins>&nbsp;<sub>(3/10)</sub> |
+| 🥉 | Kimi-K3 | 6 | 46.8&nbsp;<sub>(29/62)</sub> | 10.0&nbsp;<sub>(2/20)</sub> | 20.0&nbsp;<sub>(2/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 4 | GPT-5.6 Terra | 14 | 37.1&nbsp;<sub>(23/62)</sub> | 10.0&nbsp;<sub>(2/20)</sub> | 20.0&nbsp;<sub>(2/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 5 | GPT-5.6 Luna | 17 | 33.9&nbsp;<sub>(21/62)</sub> | 10.0&nbsp;<sub>(2/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 10.0&nbsp;<sub>(1/10)</sub> |
+| 6 | MiniMax-M3 | 21 | 29.0&nbsp;<sub>(18/62)</sub> | 10.0&nbsp;<sub>(2/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 10.0&nbsp;<sub>(1/10)</sub> |
+| 7 | GLM-5V-Turbo | 27 | 27.4&nbsp;<sub>(17/62)</sub> | 5.0&nbsp;<sub>(1/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 8 | Qwen3.5-397B-A17B | 29 | 19.4&nbsp;<sub>(12/62)</sub> | 5.0&nbsp;<sub>(1/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 9 | Step3-VL-10B | 32 | 14.5&nbsp;<sub>(9/62)</sub> | 5.0&nbsp;<sub>(1/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 10 | Qwen3.6-35B-A3B | 34 | 11.3&nbsp;<sub>(7/62)</sub> | 5.0&nbsp;<sub>(1/20)</sub> | 10.0&nbsp;<sub>(1/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 11 | InternVL3.5-8B | 38 | 3.2&nbsp;<sub>(2/62)</sub> | 0.0&nbsp;<sub>(0/20)</sub> | 0.0&nbsp;<sub>(0/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
+| 12 | UI-TARS-1.5-7B | 41 | 1.6&nbsp;<sub>(1/62)</sub> | 0.0&nbsp;<sub>(0/20)</sub> | 0.0&nbsp;<sub>(0/10)</sub> | 0.0&nbsp;<sub>(0/10)</sub> |
 
 
 
