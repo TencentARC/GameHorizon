@@ -187,9 +187,10 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 
 </div>
 
-### Online Results
+### Online Results — Long Horizon Tasks and Short-Horizon Subtasks
 
 Each entry reports the success rate (%) with the number of passed tasks in parentheses. 
+
 **The offline and online rankings show a clear positive association.**
 
 | Online | Model | Offline | Short-Horizon Subtasks | Long-Horizon Tasks | Causal | Thematic |
