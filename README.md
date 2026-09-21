@@ -189,7 +189,8 @@ Accuracies are reported as percentages. **Overall** is the mean across the three
 
 ### Online Results
 
-Each entry reports the success rate (%) with the number of passed tasks in parentheses. The offline and online rankings show a clear positive association.
+Each entry reports the success rate (%) with the number of passed tasks in parentheses. 
+**The offline and online rankings show a clear positive association.**
 
 | Online | Model | Offline | Short-Horizon Subtasks | Long-Horizon Tasks | Causal | Thematic |
 |:--:|:--|:--:|:--:|:--:|:--:|:--:|
