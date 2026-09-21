@@ -86,76 +86,100 @@ We introduce <strong>GameHorizon</strong>, a large-scale data and evaluation sui
 
 ### Offline Results — Primary Tasks (T1 / T2 / T3)
 
-Accuracies are reported as percentages; **Overall** is the mean across the three tasks. **Bold** = best, <ins>underline</ins> = second-best.
+Accuracies are reported as percentages; **Overall** is the mean across the three tasks. **Bold** = best, <ins>underline</ins> = second-best. Models are grouped into four tiers by Overall score.
 
-#### 🥇 Tier 1
+<div align="center">
 
-| Rank | Model | T1 | T2 | T3 | **Overall** |
-|:--:|:--|:--:|:--:|:--:|:--:|
-| 🥇 | GPT-6-Astra | **69.4** | 79.6 | **91.5** | **80.2** |
-| 🥈 | Gemini 3.8 Flash | 65.9 | **81.2** | <ins>84.8</ins> | <ins>77.3</ins> |
-| 🥉 | Gemini 3.7 Flash | <ins>66.2</ins> | <ins>80.1</ins> | 83.9 | 76.7 |
-| 4 | Gemini 3.6 Flash | 62.3 | 79.1 | 84.6 | 75.3 |
-| 5 | GPT-5.6 Sol | 65.3 | 77.5 | 81.5 | 74.8 |
-| 6 | Kimi-K3 | 64.4 | 79.3 | 79.7 | 74.5 |
-| 7 | Gemini 3.5 Flash | 64.9 | 77.4 | 80.8 | 74.4 |
-| 8 | GPT-5.5 | 64.6 | 78.9 | 76.2 | 73.2 |
-| 9 | Gemini 3.1 Pro | 64.5 | 75.8 | 78.2 | 72.8 |
-| 10 | Doubao-Seed-2.1-Turbo | 63.1 | 79.4 | 75.5 | 72.7 |
-| 11 | Doubao-Seed-2.1-Pro | 62.9 | 76.7 | 76.6 | 72.1 |
+<table>
+<tr>
+<td valign="top">
 
-<details>
-<summary><b>Show full leaderboard (all 44 models, 4 tiers)</b></summary>
+<b>🥇 Tier 1 · Rank 1–11</b>
 
-| Rank | Model | T1 | T2 | T3 | **Overall** |
-|:--:|:--|:--:|:--:|:--:|:--:|
-| 🥇 | GPT-6-Astra | **69.4** | 79.6 | **91.5** | **80.2** |
-| 🥈 | Gemini 3.8 Flash | 65.9 | **81.2** | <ins>84.8</ins> | <ins>77.3</ins> |
-| 🥉 | Gemini 3.7 Flash | <ins>66.2</ins> | <ins>80.1</ins> | 83.9 | 76.7 |
-| 4 | Gemini 3.6 Flash | 62.3 | 79.1 | 84.6 | 75.3 |
-| 5 | GPT-5.6 Sol | 65.3 | 77.5 | 81.5 | 74.8 |
-| 6 | Kimi-K3 | 64.4 | 79.3 | 79.7 | 74.5 |
-| 7 | Gemini 3.5 Flash | 64.9 | 77.4 | 80.8 | 74.4 |
-| 8 | GPT-5.5 | 64.6 | 78.9 | 76.2 | 73.2 |
-| 9 | Gemini 3.1 Pro | 64.5 | 75.8 | 78.2 | 72.8 |
-| 10 | Doubao-Seed-2.1-Turbo | 63.1 | 79.4 | 75.5 | 72.7 |
-| 11 | Doubao-Seed-2.1-Pro | 62.9 | 76.7 | 76.6 | 72.1 |
-| 12 | Doubao-Seed-2.0-Pro | 59.2 | 74.9 | 80.0 | 71.4 |
-| 13 | Claude Fable 5 | 62.9 | 72.7 | 78.1 | 71.2 |
-| 14 | GPT-5.6 Terra | 62.1 | 75.6 | 74.4 | 70.7 |
-| 15 | Qwen3.7-Plus | 58.8 | 75.9 | 71.5 | 68.7 |
-| 16 | Qwen3.8-27B | 59.9 | 77.4 | 68.1 | 68.5 |
-| 17 | GPT-5.6 Luna | 61.6 | 70.7 | 71.1 | 67.8 |
-| 17 | Kimi-K2.6 | 61.2 | 73.2 | 69.0 | 67.8 |
-| 19 | Doubao-Seed-2.0-Lite | 55.2 | 69.0 | 76.3 | 66.8 |
-| 20 | Gemma 4 31B-IT | 53.8 | 68.6 | 76.6 | 66.3 |
-| 21 | MiniMax-M3 | 57.8 | 68.5 | 70.6 | 65.6 |
-| 22 | Qwen3-VL-235B-A22B-Thinking | 58.2 | 71.6 | 65.9 | 65.2 |
-| 23 | Claude Opus 4.8 | 59.1 | 62.1 | 73.1 | 64.8 |
-| 24 | Claude Sonnet 5 | 54.4 | 57.7 | 82.0 | 64.7 |
-| 25 | Step-3.7-Flash | 57.5 | 71.3 | 63.4 | 64.1 |
-| 26 | Qwen3-VL-235B-A22B-Instruct | 55.1 | 62.1 | 73.1 | 63.4 |
-| 27 | GLM-5V-Turbo | 53.4 | 65.4 | 70.8 | 63.2 |
-| 28 | GPT-5.2 | 58.9 | 58.9 | 70.6 | 62.8 |
-| 29 | Qwen3.5-397B-A17B | 53.3 | 60.1 | 73.5 | 62.3 |
-| 30 | BAGEL-7B-MoT | 51.7 | 57.3 | 75.1 | 61.4 |
-| 31 | Qwen2.5-VL-32B-Instruct | 54.8 | 58.0 | 69.7 | 60.8 |
-| 32 | Step3-VL-10B | 55.4 | 64.7 | 61.7 | 60.6 |
-| 33 | SenseNova-U1-8B-MoT | 48.2 | 59.2 | 67.5 | 58.3 |
-| 34 | Qwen3.6-35B-A3B | 53.3 | 52.9 | 66.3 | 57.5 |
-| 35 | Qwen3-Omni-30B-A3B-Instruct | 52.5 | 55.6 | 63.7 | 57.3 |
-| 36 | GELab-Zero-4B-Preview | 51.8 | 46.8 | 72.7 | 57.1 |
-| 37 | Qwen2.5-VL-7B-Instruct | 52.0 | 54.3 | 63.7 | 56.7 |
-| 38 | InternVL3.5-8B | 51.8 | 50.2 | 65.5 | 55.8 |
-| 39 | GLM-4.1V-9B-Thinking | 54.9 | 54.8 | 55.3 | 55.0 |
-| 40 | GPT-4o | 55.7 | 46.3 | 61.3 | 54.4 |
-| 41 | UI-TARS-1.5-7B | 49.1 | 47.1 | 62.9 | 53.0 |
-| 42 | Ovis-U1-3B | 44.7 | 39.6 | 59.2 | 47.8 |
-| 43 | InternVL3.5-2B | 45.1 | 40.3 | 54.7 | 46.0 |
-| 44 | InternVL-U-4B | 46.1 | 37.9 | 49.8 | 44.6 |
-| | **Average (all 44)** | 57.3 | 65.1 | 71.6 | **64.7** |
+<table>
+<tr><th align="center">#</th><th align="left">Model</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><td align="center">🥇</td><td align="left" nowrap>GPT-6-Astra</td><td align="center"><strong>69.4</strong></td><td align="center">79.6</td><td align="center"><strong>91.5</strong></td><td align="center"><strong>80.2</strong></td></tr>
+<tr><td align="center">🥈</td><td align="left" nowrap>Gemini 3.8 Flash</td><td align="center">65.9</td><td align="center"><strong>81.2</strong></td><td align="center"><ins>84.8</ins></td><td align="center"><ins>77.3</ins></td></tr>
+<tr><td align="center">🥉</td><td align="left" nowrap>Gemini 3.7 Flash</td><td align="center"><ins>66.2</ins></td><td align="center"><ins>80.1</ins></td><td align="center">83.9</td><td align="center">76.7</td></tr>
+<tr><td align="center">4</td><td align="left" nowrap>Gemini 3.6 Flash</td><td align="center">62.3</td><td align="center">79.1</td><td align="center">84.6</td><td align="center">75.3</td></tr>
+<tr><td align="center">5</td><td align="left" nowrap>GPT-5.6 Sol</td><td align="center">65.3</td><td align="center">77.5</td><td align="center">81.5</td><td align="center">74.8</td></tr>
+<tr><td align="center">6</td><td align="left" nowrap>Kimi-K3</td><td align="center">64.4</td><td align="center">79.3</td><td align="center">79.7</td><td align="center">74.5</td></tr>
+<tr><td align="center">7</td><td align="left" nowrap>Gemini 3.5 Flash</td><td align="center">64.9</td><td align="center">77.4</td><td align="center">80.8</td><td align="center">74.4</td></tr>
+<tr><td align="center">8</td><td align="left" nowrap>GPT-5.5</td><td align="center">64.6</td><td align="center">78.9</td><td align="center">76.2</td><td align="center">73.2</td></tr>
+<tr><td align="center">9</td><td align="left" nowrap>Gemini 3.1 Pro</td><td align="center">64.5</td><td align="center">75.8</td><td align="center">78.2</td><td align="center">72.8</td></tr>
+<tr><td align="center">10</td><td align="left" nowrap>Doubao-Seed-2.1-Turbo</td><td align="center">63.1</td><td align="center">79.4</td><td align="center">75.5</td><td align="center">72.7</td></tr>
+<tr><td align="center">11</td><td align="left" nowrap>Doubao-Seed-2.1-Pro</td><td align="center">62.9</td><td align="center">76.7</td><td align="center">76.6</td><td align="center">72.1</td></tr>
+</table>
 
-</details>
+</td>
+<td valign="top">
+
+<b>Tier 2 · Rank 12–22</b>
+
+<table>
+<tr><th align="center">#</th><th align="left">Model</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><td align="center">12</td><td align="left" nowrap>Doubao-Seed-2.0-Pro</td><td align="center">59.2</td><td align="center">74.9</td><td align="center">80.0</td><td align="center">71.4</td></tr>
+<tr><td align="center">13</td><td align="left" nowrap>Claude Fable 5</td><td align="center">62.9</td><td align="center">72.7</td><td align="center">78.1</td><td align="center">71.2</td></tr>
+<tr><td align="center">14</td><td align="left" nowrap>GPT-5.6 Terra</td><td align="center">62.1</td><td align="center">75.6</td><td align="center">74.4</td><td align="center">70.7</td></tr>
+<tr><td align="center">15</td><td align="left" nowrap>Qwen3.7-Plus</td><td align="center">58.8</td><td align="center">75.9</td><td align="center">71.5</td><td align="center">68.7</td></tr>
+<tr><td align="center">16</td><td align="left" nowrap>Qwen3.8-27B</td><td align="center">59.9</td><td align="center">77.4</td><td align="center">68.1</td><td align="center">68.5</td></tr>
+<tr><td align="center">17</td><td align="left" nowrap>GPT-5.6 Luna</td><td align="center">61.6</td><td align="center">70.7</td><td align="center">71.1</td><td align="center">67.8</td></tr>
+<tr><td align="center">17</td><td align="left" nowrap>Kimi-K2.6</td><td align="center">61.2</td><td align="center">73.2</td><td align="center">69.0</td><td align="center">67.8</td></tr>
+<tr><td align="center">19</td><td align="left" nowrap>Doubao-Seed-2.0-Lite</td><td align="center">55.2</td><td align="center">69.0</td><td align="center">76.3</td><td align="center">66.8</td></tr>
+<tr><td align="center">20</td><td align="left" nowrap>Gemma 4 31B-IT</td><td align="center">53.8</td><td align="center">68.6</td><td align="center">76.6</td><td align="center">66.3</td></tr>
+<tr><td align="center">21</td><td align="left" nowrap>MiniMax-M3</td><td align="center">57.8</td><td align="center">68.5</td><td align="center">70.6</td><td align="center">65.6</td></tr>
+<tr><td align="center">22</td><td align="left" nowrap>Qwen3-VL-235B-A22B-Thinking</td><td align="center">58.2</td><td align="center">71.6</td><td align="center">65.9</td><td align="center">65.2</td></tr>
+</table>
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+<b>Tier 3 · Rank 23–33</b>
+
+<table>
+<tr><th align="center">#</th><th align="left">Model</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><td align="center">23</td><td align="left" nowrap>Claude Opus 4.8</td><td align="center">59.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">64.8</td></tr>
+<tr><td align="center">24</td><td align="left" nowrap>Claude Sonnet 5</td><td align="center">54.4</td><td align="center">57.7</td><td align="center">82.0</td><td align="center">64.7</td></tr>
+<tr><td align="center">25</td><td align="left" nowrap>Step-3.7-Flash</td><td align="center">57.5</td><td align="center">71.3</td><td align="center">63.4</td><td align="center">64.1</td></tr>
+<tr><td align="center">26</td><td align="left" nowrap>Qwen3-VL-235B-A22B-Instruct</td><td align="center">55.1</td><td align="center">62.1</td><td align="center">73.1</td><td align="center">63.4</td></tr>
+<tr><td align="center">27</td><td align="left" nowrap>GLM-5V-Turbo</td><td align="center">53.4</td><td align="center">65.4</td><td align="center">70.8</td><td align="center">63.2</td></tr>
+<tr><td align="center">28</td><td align="left" nowrap>GPT-5.2</td><td align="center">58.9</td><td align="center">58.9</td><td align="center">70.6</td><td align="center">62.8</td></tr>
+<tr><td align="center">29</td><td align="left" nowrap>Qwen3.5-397B-A17B</td><td align="center">53.3</td><td align="center">60.1</td><td align="center">73.5</td><td align="center">62.3</td></tr>
+<tr><td align="center">30</td><td align="left" nowrap>BAGEL-7B-MoT</td><td align="center">51.7</td><td align="center">57.3</td><td align="center">75.1</td><td align="center">61.4</td></tr>
+<tr><td align="center">31</td><td align="left" nowrap>Qwen2.5-VL-32B-Instruct</td><td align="center">54.8</td><td align="center">58.0</td><td align="center">69.7</td><td align="center">60.8</td></tr>
+<tr><td align="center">32</td><td align="left" nowrap>Step3-VL-10B</td><td align="center">55.4</td><td align="center">64.7</td><td align="center">61.7</td><td align="center">60.6</td></tr>
+<tr><td align="center">33</td><td align="left" nowrap>SenseNova-U1-8B-MoT</td><td align="center">48.2</td><td align="center">59.2</td><td align="center">67.5</td><td align="center">58.3</td></tr>
+</table>
+
+</td>
+<td valign="top">
+
+<b>Tier 4 · Rank 34–44</b>
+
+<table>
+<tr><th align="center">#</th><th align="left">Model</th><th align="center">T1</th><th align="center">T2</th><th align="center">T3</th><th align="center">Overall</th></tr>
+<tr><td align="center">34</td><td align="left" nowrap>Qwen3.6-35B-A3B</td><td align="center">53.3</td><td align="center">52.9</td><td align="center">66.3</td><td align="center">57.5</td></tr>
+<tr><td align="center">35</td><td align="left" nowrap>Qwen3-Omni-30B-A3B-Instruct</td><td align="center">52.5</td><td align="center">55.6</td><td align="center">63.7</td><td align="center">57.3</td></tr>
+<tr><td align="center">36</td><td align="left" nowrap>GELab-Zero-4B-Preview</td><td align="center">51.8</td><td align="center">46.8</td><td align="center">72.7</td><td align="center">57.1</td></tr>
+<tr><td align="center">37</td><td align="left" nowrap>Qwen2.5-VL-7B-Instruct</td><td align="center">52.0</td><td align="center">54.3</td><td align="center">63.7</td><td align="center">56.7</td></tr>
+<tr><td align="center">38</td><td align="left" nowrap>InternVL3.5-8B</td><td align="center">51.8</td><td align="center">50.2</td><td align="center">65.5</td><td align="center">55.8</td></tr>
+<tr><td align="center">39</td><td align="left" nowrap>GLM-4.1V-9B-Thinking</td><td align="center">54.9</td><td align="center">54.8</td><td align="center">55.3</td><td align="center">55.0</td></tr>
+<tr><td align="center">40</td><td align="left" nowrap>GPT-4o</td><td align="center">55.7</td><td align="center">46.3</td><td align="center">61.3</td><td align="center">54.4</td></tr>
+<tr><td align="center">41</td><td align="left" nowrap>UI-TARS-1.5-7B</td><td align="center">49.1</td><td align="center">47.1</td><td align="center">62.9</td><td align="center">53.0</td></tr>
+<tr><td align="center">42</td><td align="left" nowrap>Ovis-U1-3B</td><td align="center">44.7</td><td align="center">39.6</td><td align="center">59.2</td><td align="center">47.8</td></tr>
+<tr><td align="center">43</td><td align="left" nowrap>InternVL3.5-2B</td><td align="center">45.1</td><td align="center">40.3</td><td align="center">54.7</td><td align="center">46.0</td></tr>
+<tr><td align="center">44</td><td align="left" nowrap>InternVL-U-4B</td><td align="center">46.1</td><td align="center">37.9</td><td align="center">49.8</td><td align="center">44.6</td></tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<div align="center"><sub><b>Average (all 44 models)</b> — T1 57.3 · T2 65.1 · T3 71.6 · <b>Overall 64.7</b></sub></div>
 
 ### Online Results
 
