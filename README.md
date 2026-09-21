@@ -32,7 +32,7 @@
 
 ## 🚀 Open-Source Plan
 
-We are actively preparing the release. Stay tuned! ⭐ Star the repo to follow progress.
+We are actively preparing the release of our code, benchmark, and data. Star the repo to follow our progress.
 
 - [x] 🌐 [Project page](https://gamehorizon-suite.github.io)
 - [x] 📄 [Technical report / paper]() 
