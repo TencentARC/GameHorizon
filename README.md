@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" width="130" alt="GameHorizon Suite"/>
-
-  # 🎮 GameHorizon Suite
-
-  ### Multi-Horizon Data and Evaluation in Gameplay
+  <img src="assets/hero.png" width="100%" alt="GameHorizon Suite — Multi-Horizon Data and Evaluation in Gameplay"/>
 
   <p>
     <a href="https://gamehorizon-suite.github.io"><img src="https://img.shields.io/badge/🌐_Project_Page-Online-1f8ceb?style=for-the-badge"></a>
