@@ -9,9 +9,11 @@
   </p>
 
   <p>
-    <a href="https://raymondwang987.github.io">Yiran Wang</a><sup>1,*,†</sup>, <a href="https://flow0314.github.io">Xingyilang Yin</a><sup>1,2,6,*</sup>, <a href="https://pujunfu.github.io">Junfu Pu</a><sup>1,*</sup>, <a href="https://wangguangzhi.com">Guangzhi Wang</a><sup>1,*</sup>, Kaifeng Li<sup>1</sup>, <a href="http://mingyuouyang.com">Mingyu Ouyang</a><sup>1,3</sup>, <a href="https://scholar.google.com.hk/citations?user=CafUdpEAAAAJ">Huiqiang Sun</a><sup>1,4</sup>, 
+    <a href="https://raymondwang987.github.io">Yiran Wang</a><sup>1,*,†</sup>, <a href="https://flow0314.github.io">Xingyilang Yin</a><sup>1,2,6,*</sup>, <a href="https://pujunfu.github.io">Junfu Pu</a><sup>1,*</sup>, <a href="https://wangguangzhi.com">Guangzhi Wang</a><sup>1,*</sup>, Kaifeng Li<sup>1</sup>, 
     <br>
-    <a href="https://lg-li.github.io">Lingen Li</a><sup>1,5</sup>, <a href="https://scholar.google.com.hk/citations?user=QfKnJ7oAAAAJ">Cheng Cheng</a><sup>1</sup>, <a href="https://drexubery.github.io">Wangbo Yu</a><sup>1</sup>, <a href="https://scholar.google.com.hk/citations?user=j_yFqlsAAAAJ">Honghao Chen</a><sup>1</sup>, <a href="https://vinthony.github.io/academic/">Xiaodong Cun</a><sup>1,2,✉</sup>, <a href="https://cmpun.github.io">Chi-Man Pun</a><sup>6</sup>, <a href="https://scholar.google.com.hk/citations?user=396o2BAAAAAJ">Zhiguo Cao</a><sup>4</sup>, <a href="https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ">Ying Shan</a><sup>1</sup>
+    <a href="http://mingyuouyang.com">Mingyu Ouyang</a><sup>1,3</sup>, <a href="https://scholar.google.com.hk/citations?user=CafUdpEAAAAJ">Huiqiang Sun</a><sup>1,4</sup>, <a href="https://lg-li.github.io">Lingen Li</a><sup>1,5</sup>, <a href="https://scholar.google.com.hk/citations?user=QfKnJ7oAAAAJ">Cheng Cheng</a><sup>1</sup>, <a href="https://drexubery.github.io">Wangbo Yu</a><sup>1</sup>, 
+    <br>
+    <a href="https://scholar.google.com.hk/citations?user=j_yFqlsAAAAJ">Honghao Chen</a><sup>1</sup>, <a href="https://vinthony.github.io/academic/">Xiaodong Cun</a><sup>1,2,✉</sup>, <a href="https://cmpun.github.io">Chi-Man Pun</a><sup>6</sup>, <a href="https://scholar.google.com.hk/citations?user=396o2BAAAAAJ">Zhiguo Cao</a><sup>4</sup>, <a href="https://scholar.google.com.hk/citations?user=4oXBp9UAAAAJ">Ying Shan</a><sup>1</sup>
   </p>
   <p><sub>
     <sup>1</sup>ARC Lab, Tencent &nbsp; <sup>2</sup>GVC Lab, Great Bay University &nbsp; <sup>3</sup>NUS &nbsp; <sup>4</sup>HUST &nbsp; <sup>5</sup>MMLab, CUHK &nbsp; <sup>6</sup>University of Macau<br>
