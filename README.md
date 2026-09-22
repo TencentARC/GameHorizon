@@ -215,13 +215,11 @@ Each entry reports the success rate (%) with the number of passed tasks in paren
 If you find GameHorizon Suite useful, please consider citing:
 
 ```bibtex
-@misc{GameHorizonSuite2026,
+@article{GameHorizonSuite2026,
       title={GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay}, 
       author={Yiran Wang and Xingyilang Yin and Junfu Pu and Guangzhi Wang and Kaifeng Li and Mingyu Ouyang and Huiqiang Sun and Lingen Li and Cheng Cheng and Wangbo Yu and Honghao Chen and Xiaodong Cun and Chi-Man Pun and Zhiguo Cao and Ying Shan},
       year={2026},
-      eprint={2609.25001},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
+      journal={arXiv preprint arXiv:2609.25001},
       url={https://arxiv.org/abs/2609.25001}, 
 }
 ```
