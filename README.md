@@ -3,7 +3,7 @@
 
   <p>
     <a href="https://gamehorizon-suite.github.io"><img src="https://img.shields.io/badge/🌐_Project_Page-Online-6366F1?style=for-the-badge&labelColor=2B2F3A"></a>
-    <a href="#"><img src="https://img.shields.io/badge/📄_Paper-Online-EF4444?style=for-the-badge&labelColor=2B2F3A"></a>
+    <a href="https://arxiv.org/abs/2609.25001"><img src="https://img.shields.io/badge/📄_Paper-Online-EF4444?style=for-the-badge&labelColor=2B2F3A"></a>
     <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-F59E0B?style=for-the-badge&labelColor=2B2F3A"></a>
     <br>
     <a href="#"><img src="https://img.shields.io/badge/📊_Benchmark-Coming_Soon-14B8A6?style=for-the-badge&labelColor=2B2F3A"></a>
@@ -28,7 +28,7 @@
 
 ## 📢 News
 
-- **[2026.09.22]** 📄 The [paper]() and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
+- **[2026.09.22]** 📄 The [paper](https://arxiv.org/abs/2609.25001) and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
 - We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
 
 ## 🚀 Open-Source Plan
@@ -36,7 +36,7 @@
 We are actively preparing the release of our code, benchmark, and data. Star the repo to follow our progress.
 
 - [x] 🌐 [Project page](https://gamehorizon-suite.github.io)
-- [x] 📄 [Technical report / paper]() 
+- [x] 📄 [Technical report / paper](https://arxiv.org/abs/2609.25001) 
 - [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io/#benchmark)
 - [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
 - [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
@@ -215,11 +215,14 @@ Each entry reports the success rate (%) with the number of passed tasks in paren
 If you find GameHorizon Suite useful, please consider citing:
 
 ```bibtex
-@article{gamehorizon2026,
-  title  = {GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay},
-  author = {GameHorizon Suite Team},
-  year   = {2026},
-  note   = {Preprint coming soon}
+@misc{GameHorizonSuite2026,
+      title={GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay}, 
+      author={Yiran Wang and Xingyilang Yin and Junfu Pu and Guangzhi Wang and Kaifeng Li and Mingyu Ouyang and Huiqiang Sun and Lingen Li and Cheng Cheng and Wangbo Yu and Honghao Chen and Xiaodong Cun and Chi-Man Pun and Zhiguo Cao and Ying Shan},
+      year={2026},
+      eprint={2609.25001},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2609.25001}, 
 }
 ```
 
