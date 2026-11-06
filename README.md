@@ -6,6 +6,7 @@
     <a href="https://arxiv.org/abs/2609.25001"><img src="https://img.shields.io/badge/📄_Paper-Online-EF4444?style=for-the-badge&labelColor=2B2F3A"></a>
     <a href="https://gamehorizon-suite.github.io/#benchmark"><img src="https://img.shields.io/badge/🏆_Leaderboard-Online-F59E0B?style=for-the-badge&labelColor=2B2F3A"></a>
     <br>
+    <a href="GameHorizon-Annotator"><img src="https://img.shields.io/badge/🏗️_Annotator-Released-10B981?style=for-the-badge&labelColor=2B2F3A"></a>
     <a href="#"><img src="https://img.shields.io/badge/📊_Benchmark-Coming_Soon-14B8A6?style=for-the-badge&labelColor=2B2F3A"></a>
     <a href="#"><img src="https://img.shields.io/badge/🤗_Dataset-Coming_Soon-0EA5E9?style=for-the-badge&labelColor=2B2F3A"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/⚖️_License-Apache_2.0-8B5CF6?style=for-the-badge&labelColor=2B2F3A"></a>
@@ -28,6 +29,7 @@
 
 ## 📢 News
 
+- **[2026.11.11]** 🏗️ [**GameHorizon-Annotator**](GameHorizon-Annotator) is released — the automated pipeline that builds our multi-horizon instruction pyramid!
 - **[2026.10.26]** ⏳ Due to our company's internal approval process, the release will be delayed by one week. We will start releasing next week, beginning with the **Annotator**. Sorry for the delay and thanks for your patience! 🙏
 - **[2026.09.22]** 📄 The [paper](https://arxiv.org/abs/2609.25001) and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
 - We will progressively release the **code**, **benchmark**, and **data** starting around **2026.10.25**. Stay tuned! ⭐
@@ -39,7 +41,7 @@ We are actively preparing the release of our code, benchmark, and data. Star the
 - [x] 🌐 [Project page](https://gamehorizon-suite.github.io)
 - [x] 📄 [Technical report / paper](https://arxiv.org/abs/2609.25001) 
 - [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io/#benchmark)
-- [ ] 🏗️ GameHorizon-Annotator — annotation toolkit & pipeline
+- [x] 🏗️ [GameHorizon-Annotator](GameHorizon-Annotator) — annotation toolkit & pipeline
 - [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
 - [ ] 📊 GameHorizon-Bench (online) — online task environments
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
@@ -81,6 +83,35 @@ We introduce <strong>GameHorizon</strong>, a large-scale data and evaluation sui
 </tr>
 </tbody>
 </table>
+
+
+## 🏗️ GameHorizon-Annotator
+
+<div align="left"><img src="assets/annotator.png" width="95%" alt="GameHorizon-Annotator pipeline"/></div>
+
+<p align="justify">
+<strong>GameHorizon-Annotator</strong> turns gameplay video plus temporally aligned keyboard-and-mouse actions into the three-level instruction pyramid — <strong>short-horizon operations → medium-horizon goals → long-horizon strategies</strong>.
+</p>
+
+```bash
+cd GameHorizon-Annotator
+uv sync                                   # or: pip install -e .
+
+export OPENAI_API_KEY="your-key"
+export OPENAI_BASE_URL="https://your-provider/v1"
+
+python -m annotator.cli.run_full_pipeline \
+  --game minecraft \
+  --video ./data/gameplay.mp4 \
+  --annotations ./data/annotations.json \
+  --workdir ./outputs/minecraft-scene
+```
+
+Level-1/2/3 instructions land in `./outputs/minecraft-scene/level_{1,2,3}_instructions.json`.
+Six games ship ready to run: **Apex Legends**, **Cyberpunk 2077**, **Elden Ring**,
+**Elden Ring Nightreign**, **GTA V**, **Minecraft**.
+
+📖 Input format, pipeline stages and all options → **[`GameHorizon-Annotator/README.md`](GameHorizon-Annotator/README.md)**
 
 
 ## 🏆 Leaderboard

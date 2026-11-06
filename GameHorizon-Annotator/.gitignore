@@ -1,0 +1,29 @@
+# macOS metadata
+.DS_Store
+._*
+
+# Python environments and build artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local inputs, generated annotations and caches
+data/
+outputs/
+.cache/

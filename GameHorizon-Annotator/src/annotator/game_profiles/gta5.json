@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "game_id": "gta5",
+  "display_name": "Grand Theft Auto V",
+  "scripts": {
+    "stage_1a": "game_assets/gta5/1a_GTA5_scripts_segment_from_actions.py",
+    "stage_1b": "game_assets/gta5/1b_GTA5_refine_with_gemini.py",
+    "segment_disable_default_flag": "--no-default-tier2-merge",
+    "refine_supports_video_start_ns": true
+  },
+  "assets": {
+    "taxonomy": "game_assets/gta5/GTA5_taxonomy.py",
+    "keybinds": "game_assets/gta5/GTA5_keybinds.json"
+  },
+  "defaults": {
+    "fallback_fps": 20.0,
+    "stage_1a": {
+      "min_duration_s": 1.0,
+      "merge_tier2_groups": [
+        "on_foot_movement",
+        "combat",
+        "vehicle_driving",
+        "aircraft",
+        "camera_hud"
+      ]
+    },
+    "stage_1b": {
+      "model": "gemini-2.5-flash",
+      "frames_per_segment": 5,
+      "subdivide_frames_per_segment": 10,
+      "image_detail": "low",
+      "concurrency": 8
+    }
+  },
+  "prompts": {
+    "level_1": "Disambiguate on-foot, vehicle, aircraft, combat, phone, menu, and mission contexts. Preserve visible vehicles, targets, roads, destinations, and interaction prompts.",
+    "level_2": "Summarize the mission phase, drive, chase, combat sequence, traversal, interaction, or preparation sub-goal.",
+    "level_3": "State the long-horizon mission, escape, pursuit, travel, combat, or open-world objective.",
+    "continuity": "Treat driving, pursuit, combat, and interaction as continuous when they advance the same mission phase; split on mission reset, cutscene transition, character switch, unrelated destination, or a clear change of objective.",
+    "level_3_context": {
+      "include_actions": true,
+      "include_keybinds": true
+    }
+  }
+}

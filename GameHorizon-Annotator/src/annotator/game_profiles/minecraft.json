@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "game_id": "minecraft",
+  "display_name": "Minecraft",
+  "scripts": {
+    "stage_1a": "game_assets/minecraft/1a_Minecraft_scripts_segment_from_actions.py",
+    "stage_1b": "game_assets/minecraft/1b_Minecraft_refine_with_gemini.py",
+    "segment_disable_default_flag": "--no-default-tier2-merge",
+    "refine_supports_video_start_ns": true
+  },
+  "assets": {
+    "taxonomy": "game_assets/minecraft/Minecraft_taxonomy.py",
+    "keybinds": "game_assets/minecraft/Minecraft_keybinds.json"
+  },
+  "defaults": {
+    "fallback_fps": 20.0,
+    "stage_1a": {
+      "min_duration_s": 1.0,
+      "merge_tier2_groups": [
+        "movement"
+      ]
+    },
+    "stage_1b": {
+      "model": "gemini-2.5-flash",
+      "frames_per_segment": 5,
+      "subdivide_frames_per_segment": 10,
+      "image_detail": "low",
+      "concurrency": 8
+    }
+  },
+  "prompts": {
+    "level_1": "Identify the immediate block, item, entity, movement, inventory, crafting, or interaction goal. Preserve visible target blocks and spatial relations.",
+    "level_2": "Summarize the broader building, mining, crafting, exploration, inventory-management, or combat sub-goal without listing every atomic input.",
+    "level_3": "State the long-horizon survival, construction, resource-gathering, exploration, or progression objective.",
+    "continuity": "Treat consecutive gathering, crafting, travel, and construction steps as continuous only when they support the same larger objective; split on a clear change of project, destination, world state, or session flow.",
+    "level_3_context": {
+      "include_actions": false,
+      "include_keybinds": false
+    }
+  }
+}

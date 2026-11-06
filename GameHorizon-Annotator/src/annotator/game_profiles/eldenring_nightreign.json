@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "game_id": "eldenring_nightreign",
+  "display_name": "ELDEN RING NIGHTREIGN",
+  "scripts": {
+    "stage_1a": "game_assets/eldenring_nightreign/1a_EldenRing-NightReign_segment_from_actions.py",
+    "stage_1b": "game_assets/eldenring_nightreign/1b_EldenRing-NightReign_refine_with_gemini.py",
+    "segment_disable_default_flag": "--no-default-tier2-merge",
+    "refine_supports_video_start_ns": true
+  },
+  "assets": {
+    "taxonomy": "game_assets/eldenring_nightreign/EldenRing_NightReign_taxonomy.py",
+    "keybinds": "game_assets/eldenring_nightreign/EldenRing_NightReign_keybinds.json"
+  },
+  "defaults": {
+    "fallback_fps": 20.0,
+    "stage_1a": {
+      "min_duration_s": 0.8,
+      "merge_tier2_groups": [
+        "traversal",
+        "combat"
+      ]
+    },
+    "stage_1b": {
+      "model": "gemini-2.5-flash",
+      "frames_per_segment": 5,
+      "subdivide_frames_per_segment": 10,
+      "image_detail": "low",
+      "concurrency": 8
+    }
+  },
+  "prompts": {
+    "level_1": "Identify the immediate traversal, dodge, attack, guard, skill, flask, item, armament, interaction, revive, targeting, or menu goal while respecting visible animation commitment.",
+    "level_2": "Describe the broader combat exchange, exploration route, looting, recovery, team support, or expedition sub-goal.",
+    "level_3": "State the long-horizon expedition, boss, survival, progression, preparation, or exploration objective.",
+    "continuity": "Merge combat actions only when they belong to the same encounter and expedition objective; split on a new encounter, boss phase reset, death/results flow, hub/menu transition, or unrelated destination.",
+    "level_3_context": {
+      "include_actions": false,
+      "include_keybinds": false
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "game_id": "cyberpunk_2077",
+  "display_name": "Cyberpunk 2077",
+  "scripts": {
+    "stage_1a": "game_assets/cyberpunk_2077/1a_Cyberpunk_2077_scripts_segment_from_actions.py",
+    "stage_1b": "game_assets/cyberpunk_2077/1b_Cyberpunk_2077_refine_with_gemini.py",
+    "segment_disable_default_flag": "--no-default-tier2-merge",
+    "refine_supports_video_start_ns": true
+  },
+  "assets": {
+    "taxonomy": "game_assets/cyberpunk_2077/Cyberpunk_2077_taxonomy.py",
+    "keybinds": "game_assets/cyberpunk_2077/Cyberpunk_2077_keybinds.json"
+  },
+  "defaults": {
+    "fallback_fps": 20.0,
+    "stage_1a": {
+      "min_duration_s": 1.0,
+      "merge_tier2_groups": [
+        "traversal",
+        "stealth",
+        "combat"
+      ]
+    },
+    "stage_1b": {
+      "model": "gemini-2.5-flash",
+      "frames_per_segment": 5,
+      "subdivide_frames_per_segment": 10,
+      "image_detail": "low",
+      "concurrency": 8
+    }
+  },
+  "prompts": {
+    "level_1": "Identify the immediate traversal, stealth, dialogue, interaction, weapon, combat, scan, quickhack, vehicle, braindance, consumable, or menu goal and preserve visible names and targets.",
+    "level_2": "Summarize the quest phase, infiltration, conversation, combat, hacking, travel, investigation, or preparation sub-goal.",
+    "level_3": "State the long-horizon quest, infiltration, investigation, relationship, combat, travel, or progression objective while preserving defining names and locations.",
+    "continuity": "Merge dialogue, travel, infiltration, hacking, and combat when they advance the same quest or objective; split on a new quest, braindance/session transition, unrelated destination, major cutscene reset, or clear objective change.",
+    "level_3_context": {
+      "include_actions": false,
+      "include_keybinds": false
+    }
+  }
+}

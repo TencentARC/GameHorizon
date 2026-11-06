@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "game_id": "eldenring",
+  "display_name": "ELDEN RING",
+  "scripts": {
+    "stage_1a": "game_assets/eldenring/1a_EldenRing_segment_from_actions.py",
+    "stage_1b": "game_assets/eldenring/1b_EldenRing_refine_with_gemini.py",
+    "segment_disable_default_flag": "--no-default-tier2-merge",
+    "refine_supports_video_start_ns": true
+  },
+  "assets": {
+    "taxonomy": "game_assets/eldenring/EldenRing_taxonomy.py",
+    "keybinds": "game_assets/eldenring/EldenRing_keybinds.json"
+  },
+  "defaults": {
+    "fallback_fps": 20.0,
+    "stage_1a": {
+      "min_duration_s": 0.8,
+      "merge_tier2_groups": [
+        "traversal",
+        "combat"
+      ]
+    },
+    "stage_1b": {
+      "model": "gemini-2.5-flash",
+      "frames_per_segment": 5,
+      "subdivide_frames_per_segment": 10,
+      "image_detail": "low",
+      "concurrency": 8
+    }
+  },
+  "prompts": {
+    "level_1": "Identify the immediate exploration, Torrent traversal, dodge, attack, guard, Ash of War, spell, item, interaction, Site of Grace, weapon handling, or menu goal while preserving visible targets and animation commitment.",
+    "level_2": "Describe the broader combat exchange, exploration route, mounted travel, dungeon traversal, looting, recovery, NPC interaction, or character-progression sub-goal.",
+    "level_3": "State the long-horizon quest, boss, exploration, dungeon, progression, preparation, or travel objective in the Lands Between.",
+    "continuity": "Merge movement, combat, magic, interaction, and recovery only when they advance the same encounter or destination; split on a new encounter, boss phase reset, death/loading flow, Site of Grace or menu transition, or unrelated objective.",
+    "level_3_context": {
+      "include_actions": false,
+      "include_keybinds": false
+    }
+  }
+}

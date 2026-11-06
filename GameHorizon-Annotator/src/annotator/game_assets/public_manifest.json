@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "description": "SHA-256 manifest for the six legacy_cli public-package Stage 1 asset closures.",
+  "algorithm": "sha256",
+  "entries": [
+    {
+      "path": "apex_legends/1a_Apex_Legends_segment_from_actions.py",
+      "bytes": 42019,
+      "sha256": "8133dc72ea04385ba20041ea62258aba1fadb1c38e2c7e69a504e9db442cdc6b"
+    },
+    {
+      "path": "apex_legends/1b_Apex_Legends_refine_with_gemini.py",
+      "bytes": 57717,
+      "sha256": "8351f4996ac6046fd20aeb7b19707f7002d444650bbc2e6023c580dd9a1dccc8"
+    },
+    {
+      "path": "apex_legends/Apex_Legends_keybinds.json",
+      "bytes": 854,
+      "sha256": "71b49419785a7fb5598ad0c1b49192cb076de2aca7b8e0e2e19e62e700225a38"
+    },
+    {
+      "path": "apex_legends/Apex_Legends_taxonomy.py",
+      "bytes": 27088,
+      "sha256": "1e7c762c27b18543e2b36cdc61b3aaab24053d184e2f038f9e797e4c3ebe765a"
+    },
+    {
+      "path": "apex_legends/Apex_Legends_video_io.py",
+      "bytes": 11308,
+      "sha256": "056d7c8bdcb03fc3792f44bf59f9ba71e9604b438120ab872b63e0aecbdd98a3"
+    },
+    {
+      "path": "cyberpunk_2077/1a_Cyberpunk_2077_scripts_segment_from_actions.py",
+      "bytes": 35227,
+      "sha256": "c2845cfe500907ef527f173934a7bdf93cf7cf78a85fda4355fd04146bbb2814"
+    },
+    {
+      "path": "cyberpunk_2077/1b_Cyberpunk_2077_refine_with_gemini.py",
+      "bytes": 44834,
+      "sha256": "120f14f43676554b2a2c00f2686e7a33143067171d422e857f435eea3a897ab5"
+    },
+    {
+      "path": "cyberpunk_2077/Cyberpunk_2077_keybinds.json",
+      "bytes": 1659,
+      "sha256": "57fdee0ff706ac425120b2f857a60ba68d4b03249d72a5b502d40edef96b9d54"
+    },
+    {
+      "path": "cyberpunk_2077/Cyberpunk_2077_taxonomy.py",
+      "bytes": 33232,
+      "sha256": "59a13dff598d8d18601d6b11f4d6d0d664a17581d32537ef6f1ea7a9e672bf7a"
+    },
+    {
+      "path": "cyberpunk_2077/Cyberpunk_2077_video_io.py",
+      "bytes": 11308,
+      "sha256": "056d7c8bdcb03fc3792f44bf59f9ba71e9604b438120ab872b63e0aecbdd98a3"
+    },
+    {
+      "path": "eldenring/1a_EldenRing_segment_from_actions.py",
+      "bytes": 22660,
+      "sha256": "de19331db5f49d68044a1ae6e6d0ea3e7289abcd37f16b9e8f60705c5fb1bba7"
+    },
+    {
+      "path": "eldenring/1b_EldenRing_refine_with_gemini.py",
+      "bytes": 27710,
+      "sha256": "f7eaf2ce4e17d8eb56d5663de793ac07b53fb8eca5c252f3974a13cf797150f5"
+    },
+    {
+      "path": "eldenring/EldenRing_keybinds.json",
+      "bytes": 2477,
+      "sha256": "9a14a62225ce374adf0836ac10ccabb1d5e06e048fd241bcf2a1ad1d5f942ed4"
+    },
+    {
+      "path": "eldenring/EldenRing_taxonomy.py",
+      "bytes": 44975,
+      "sha256": "0f7f2e53a5c8d6d45a668209e15bb98e23f86b667bff5fcbd7fa2f2ae3341814"
+    },
+    {
+      "path": "eldenring/EldenRing_video_io.py",
+      "bytes": 8575,
+      "sha256": "14c102db89d295b70d1d8ff4fdf0a2e6c53a4dfc3a20a4952e8f4668f35c1d70"
+    },
+    {
+      "path": "eldenring_nightreign/1a_EldenRing-NightReign_segment_from_actions.py",
+      "bytes": 44347,
+      "sha256": "303542025c98e6c3fa6dcc0f720804752f3e451fde776f0ad1284dd067af4633"
+    },
+    {
+      "path": "eldenring_nightreign/1b_EldenRing-NightReign_refine_with_gemini.py",
+      "bytes": 56910,
+      "sha256": "074ed3b2fead17ddd955b03e63b96401ee2d8af52f552e509819a7a9f3def1f6"
+    },
+    {
+      "path": "eldenring_nightreign/EldenRing_NightReign_keybinds.json",
+      "bytes": 2225,
+      "sha256": "2e2f380f3cc899c3a0db02c27fe5e1774caa363edd716ee660608b0aabc0188d"
+    },
+    {
+      "path": "eldenring_nightreign/EldenRing_NightReign_taxonomy.py",
+      "bytes": 30025,
+      "sha256": "a9b44d19ffe07cb3a78bc6a484fa5247345f8c619143dbd19e0cf37f61943835"
+    },
+    {
+      "path": "eldenring_nightreign/EldenRing_NightReign_video_io.py",
+      "bytes": 11695,
+      "sha256": "788ece6ae0cfa92b8329ec2f9add214651ef1fb5b16f3a1d1e320a494a803f35"
+    },
+    {
+      "path": "gta5/1a_GTA5_scripts_segment_from_actions.py",
+      "bytes": 35243,
+      "sha256": "887c6ef24ee4d0c1e7009b08706bfe6628f1008587c23228da9341ffa7da3a69"
+    },
+    {
+      "path": "gta5/1b_GTA5_refine_with_gemini.py",
+      "bytes": 49110,
+      "sha256": "7a5770c0f433bf3604edbefaf6c07978c21f3bef669696e93a686b42050f4938"
+    },
+    {
+      "path": "gta5/GTA5_keybinds.json",
+      "bytes": 1602,
+      "sha256": "e570a3e7e12c3e19fbbc8ee8c954e169aa5386a15e768214c773f184e13419d0"
+    },
+    {
+      "path": "gta5/GTA5_taxonomy.py",
+      "bytes": 28756,
+      "sha256": "c6b5ecde82d7790638a21058f0fa6f81e64af8e587306d03800f97f6354f6426"
+    },
+    {
+      "path": "minecraft/1a_Minecraft_scripts_segment_from_actions.py",
+      "bytes": 30737,
+      "sha256": "ebdfd3a65679210e2614395f2217ac8a280cc50d8cee6a7c75473f6232444db7"
+    },
+    {
+      "path": "minecraft/1b_Minecraft_refine_with_gemini.py",
+      "bytes": 41590,
+      "sha256": "6f956e2d7731e4dec76d14aa78d7448b0dd9752a619f78f53ea833ec8466081e"
+    },
+    {
+      "path": "minecraft/Minecraft_keybinds.json",
+      "bytes": 899,
+      "sha256": "fd00aed850351106a8b1baa8c17e81853bda79a8a6f6a9c716697a9e507273ed"
+    },
+    {
+      "path": "minecraft/Minecraft_taxonomy.py",
+      "bytes": 26564,
+      "sha256": "8cd5c7a9b1333ac4ab23f470ca647dea4a2219749c5faea7bb015b152f6cd969"
+    },
+    {
+      "path": "minecraft/Minecraft_video_io.py",
+      "bytes": 10340,
+      "sha256": "0b5a47488d932d7fdd1a9ee2f7ec4a59fd4457498a1d17a5586196c95c7ac9b2"
+    }
+  ]
+}
