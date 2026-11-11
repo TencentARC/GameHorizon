@@ -93,6 +93,8 @@ We introduce <strong>GameHorizon</strong>, a large-scale data and evaluation sui
 <strong>GameHorizon-Annotator</strong> turns gameplay video plus temporally aligned keyboard-and-mouse actions into the three-level instruction pyramid — <strong>short-horizon operations → medium-horizon goals → long-horizon strategies</strong>.
 </p>
 
+### Quick Start
+
 ```bash
 cd GameHorizon-Annotator
 uv sync                                   # or: pip install -e .
@@ -108,8 +110,12 @@ python -m annotator.cli.run_full_pipeline \
 ```
 
 Level-1/2/3 instructions land in `./outputs/minecraft-scene/level_{1,2,3}_instructions.json`.
-Six games ship ready to run: **Apex Legends**, **Cyberpunk 2077**, **Elden Ring**,
-**Elden Ring Nightreign**, **GTA V**, **Minecraft**.
+
+To try it without preparing your own recording, we release six demo clips — **Apex
+Legends**, **Cyberpunk 2077**, **Elden Ring**, **Elden Ring Nightreign**, **GTA V**
+and **Minecraft** — each with its video, aligned keyboard-mouse actions and
+annotated instructions, alongside the keybind maps for all 21 titles:
+**[🤗 GameHorizon-Data](https://huggingface.co/datasets/TencentARC/GameHorizon-Data)**
 
 📖 Input format, pipeline stages and all options → **[`GameHorizon-Annotator/README.md`](GameHorizon-Annotator/README.md)**
 

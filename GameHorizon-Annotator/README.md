@@ -18,17 +18,25 @@ Turns **gameplay video + temporally aligned keyboard-and-mouse annotations** int
 
 | Level | Horizon | What it describes |
 | --- | --- | --- |
-| **Level 1** | short (seconds) | the immediate **operation** |
-| **Level 2** | medium (1–2 min) | the **goal** those operations serve |
-| **Level 3** | long (4–8 min) | the **strategy / mission** |
+| **Level 1** | 1–5 seconds | the immediate **operation** |
+| **Level 2** | 1–2 minutes | the **goal** those operations serve |
+| **Level 3** | 5–8 minutes | the **strategy / mission** |
 
-## 🎮 Supported games
+## 🎮 Games
+
+The pipeline is not tied to a fixed list of titles. Any game works once it has the
+basics: a keyboard-mouse action stream, a keybind map, an action taxonomy, and a
+segmentation script. Those live in `src/annotator/game_assets/<game>/` and are
+declared by a JSON profile in `src/annotator/game_profiles/` — adding a game needs
+no changes to the core pipeline.
+
+Six games ship with their assets bundled, so they run as-is:
 
 `apex_legends` · `cyberpunk_2077` · `eldenring` · `eldenring_nightreign` · `gta5` · `minecraft`
 
-Pass one of these to `--game`. Each is declared by a JSON profile in
-`src/annotator/game_profiles/`, so adding a game means adding a profile plus its
-Stage-1 assets (taxonomy, keybinds, segmentation script) — no core changes.
+Keybind maps for all 21 titles in GameHorizon-Data, plus six demo clips to try the
+pipeline on, are published with the
+[dataset](https://huggingface.co/datasets/TencentARC/GameHorizon-Data).
 
 ## 📦 Requirements
 
@@ -144,6 +152,33 @@ Render instructions back onto the gameplay as caption videos to eyeball quality:
 python -m annotator.cli.build_instruction_videos --help
 ```
 
+## ✂️ Segmentation
+
+Stage 1a cuts the recording into the Level-1 segments everything else builds on.
+Two backends are available via `--segmenter`.
+
+**`action` (default)** — the method described in the paper. Boundaries come from the
+keybind semantics of the action stream, and every segment is labelled with a
+taxonomy leaf that later feeds the Stage 1b refinement and the Level-1 prompt. It
+reads the keybinds and taxonomy, so it needs a game's assets to be in place, and the
+cut granularity is worth tuning per title via `--segment-min-duration-s`,
+`--merge-tier2` (collapse a taxonomy group such as `movement` into single segments)
+and `--no-default-tier2-merge`.
+
+**`scenedetect`** — boundaries from visual shot changes (PySceneDetect
+`ContentDetector`), which needs nothing game-specific and is the simpler way to get
+going on a new title. The trade-off is that shot changes are not behaviour
+boundaries, so one continuous action tends to be split into several segments. Tune
+with `--scenedetect-threshold` (27.0; lower cuts more),
+`--scenedetect-min-scene-frames` and `--scenedetect-frame-skip`. Segments come out
+unlabelled and Stage 1b assigns the taxonomy label from vision, so the rest of the
+pipeline is unchanged.
+
+```bash
+pip install 'GameHorizon-Annotator[scenedetect]'
+python -m annotator.cli.run_full_pipeline ... --segmenter scenedetect
+```
+
 ## 🔁 Pipeline stages
 
 Eight stages run in order; each is addressable by name with `--only` / `--skip`.
@@ -165,12 +200,6 @@ Eight stages run in order; each is addressable by name with `--only` / `--skip`.
 ```
 
 ## ⚙️ Options
-
-**Segmentation** — `--segmenter action` (default) cuts on the keybind taxonomy and
-labels every segment. `--segmenter scenedetect` cuts on visual shot changes instead,
-needs no per-game assets, and leaves labelling to Stage 1b; tune it with
-`--scenedetect-threshold` (27.0, lower cuts more), `--scenedetect-min-scene-frames`,
-`--scenedetect-frame-skip`. `--segment-min-duration-s` applies to both.
 
 **Models** — `--refine-model` (Stage 1b), `--instruction-model` (Levels 1–3).
 
