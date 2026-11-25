@@ -29,6 +29,7 @@
 
 ## 📢 News
 
+- **[2026.11.25]** 📊 Offline **GameHorizon-Bench** data is released — 99 recordings (122 hours) and 290 annotated scenes, with per-frame actions and Level-1/2/3 instructions, under [`GameHorizon-Bench-Offline/`](https://huggingface.co/datasets/TencentARC/GameHorizon-Data) on Hugging Face. The question bank, evaluation code, and question-generation code will follow later this week or next.
 - **[2026.11.11]** 🏗️ [**GameHorizon-Annotator**](GameHorizon-Annotator) is released — the automated pipeline that builds our multi-horizon instruction pyramid! Along with it, we release [**GameHorizon-Annotator-Demo**](https://huggingface.co/datasets/TencentARC/GameHorizon-Data) and the **keybind maps for all 21 titles** so you can run the whole pipeline right away. 
 - **[2026.10.26]** ⏳ Due to our company's internal approval process, the release will be delayed by one week. We will start releasing next week, beginning with the **Annotator**. Sorry for the delay and thanks for your patience! 🙏
 - **[2026.09.22]** 📄 The [paper](https://arxiv.org/abs/2609.25001) and [project page](https://gamehorizon-suite.github.io) of GameHorizon Suite are released!
@@ -42,6 +43,7 @@ We are actively preparing the release of our code, benchmark, and data. Star the
 - [x] 📄 [Technical report / paper](https://arxiv.org/abs/2609.25001) 
 - [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io/#benchmark)
 - [x] 🏗️ [GameHorizon-Annotator](GameHorizon-Annotator) — annotation toolkit & pipeline
+- [x] 📊 [GameHorizon-Bench (offline) data](https://huggingface.co/datasets/TencentARC/GameHorizon-Data) — recordings and per-frame annotations
 - [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
 - [ ] 📊 GameHorizon-Bench (online) — online task environments
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
