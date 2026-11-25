@@ -44,7 +44,7 @@ We are actively preparing the release of our code, benchmark, and data. Star the
 - [x] 🏆 [Public leaderboard](https://gamehorizon-suite.github.io/#benchmark)
 - [x] 🏗️ [GameHorizon-Annotator](GameHorizon-Annotator) — annotation toolkit & pipeline
 - [x] 📊 [GameHorizon-Bench (offline) data](https://huggingface.co/datasets/TencentARC/GameHorizon-Data) — recordings and per-frame annotations
-- [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code
+- [ ] 📊 GameHorizon-Bench (offline) — MCQ suite & evaluation code (coming this week or next)
 - [ ] 📊 GameHorizon-Bench (online) — online task environments
 - [ ] 🎯 GameHorizon-Data — 5,000-hour AAA gameplay corpus
 
